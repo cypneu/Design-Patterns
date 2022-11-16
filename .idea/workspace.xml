@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc29df4f-4739-4489-9089-50c768a69355" name="Changes" comment="add observer pattern">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/FileWriterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/IFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/NumberOfConsonantsWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/NumberOfVowelsWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/NumberOfWordsWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OppositeDirectionWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/OwnFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/test_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-Patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/FileWriterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/FileWriterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/IFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/IFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfConsonantsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfConsonantsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfVowelsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfVowelsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfWordsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfWordsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/OppositeDirectionWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/OppositeDirectionWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/OwnFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/OwnFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/test_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -42,26 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "/Users/cyprianneugebauer/Coding/Design-Patterns",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17382812",
+    "project.structure.side.proportion": "0.34336677",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Observer" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
-      <module name="Design-Patterns" />
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="decorator.Main" />
+      <module name="Design-Patterns.main" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/opt/javafx-sdk-19/lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="decorator.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666296944803</updated>
       <workItem from="1666296946599" duration="318000" />
-      <workItem from="1666320356221" duration="9300000" />
+      <workItem from="1666320356221" duration="9817000" />
+      <workItem from="1667465225237" duration="1076000" />
+      <workItem from="1667468418409" duration="494000" />
+      <workItem from="1667468916338" duration="3592000" />
+      <workItem from="1668509305392" duration="1263000" />
+      <workItem from="1668524536493" duration="6058000" />
+      <workItem from="1668543098032" duration="1654000" />
+      <workItem from="1668546724872" duration="11240000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666297145066</created>
@@ -93,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666297145066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add observer pattern">
+      <created>1666330111067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666330111067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
