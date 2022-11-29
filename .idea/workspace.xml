@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc29df4f-4739-4489-9089-50c768a69355" name="Changes" comment="add observer pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="cc29df4f-4739-4489-9089-50c768a69355" name="Changes" comment="add decorator pattern">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design-Patterns.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/FileWriterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/FileWriterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/IFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/IFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfConsonantsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfConsonantsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfVowelsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfVowelsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/NumberOfWordsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/NumberOfWordsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/OppositeDirectionWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/OppositeDirectionWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/OwnFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/OwnFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/test_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/decorator/LineStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/decorator/LineStyle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/decorator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/decorator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/ColorDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/ColorDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/LineStyleDecorator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/LineStyleDecorator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/LineStyleDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/decorator/decorators/LineStyleDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,28 +67,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "/Users/cyprianneugebauer/Coding/Design-Patterns",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17382812",
-    "project.structure.side.proportion": "0.34336677",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cyprianneugebauer/Coding/Design-Patterns&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17382812&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34336677&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Observer" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Peer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -102,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Peer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facade.Peer" />
+      <module name="Design-Patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Peer" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -125,6 +142,9 @@
       <workItem from="1668524536493" duration="6058000" />
       <workItem from="1668543098032" duration="1654000" />
       <workItem from="1668546724872" duration="11240000" />
+      <workItem from="1668675199142" duration="611000" />
+      <workItem from="1669550645765" duration="9792000" />
+      <workItem from="1669725700720" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666297145066</created>
